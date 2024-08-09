@@ -1,0 +1,84 @@
+
+/* Styles for the background blobs */
+.bg-blob {
+    height: 30rem;
+    width: 30rem;
+    background: #0054b3c6;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(8rem);
+    z-index: -1;
+    pointer-events: none;
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  
+  .right {
+    top: 0;
+    right: 0;
+  }
+  
+  .left {
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Styles for the login page container */
+  .loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  /* Styles for the login card */
+  .loginCard {
+    display: flex;
+    height: 75%;
+    width: 80%; 
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Styles for the right section of the login card */
+  .right-section {
+    background: #dae9f6;
+    height: 100%;
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+  }
+  
+  /* Styles for the logo image */
+  .logoImg {
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styles for the demo image */
+  .demoImg {
+    width: 100%;
+    height: auto; 
+  }
+  
+  /* Styles for the demo image section */
+  .demoImgSection {
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+  
+  /* Styles for the left section of the login card */
+  .left-section {
+    flex: 1;
+    
+  }
